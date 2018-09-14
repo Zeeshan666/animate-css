@@ -14,11 +14,16 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<script href="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
 
 <!-- Google font-->
 <link href='https://fonts.googleapis.com/css?family=Lato:400,100,700,900,500,300' rel='stylesheet' type='text/css'>
 
 <!-- Required Framework-->
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
  <link rel="stylesheet" type="text/css" href="../assets/css/lib.css" /> 
 <!-- Style.css-->
@@ -36,8 +41,37 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 </head>
+<style>
+  .v{
+    visibility: hidden;;
+  }
+ 
+ .nav-tabs{
+  font-size: 180%;
+  font-family: 'Courier New', Courier, monospace;
 
 
+}
+.main-text{
+  font-size: 20px;
+font-weight: bold;
+font-family: 'Courier New', Courier, monospace;
+margin-top: 50px;
+
+margin-left: 30px;
+text-align:center;
+
+}
+.nav-link{
+  margin-left: 80px;
+}
+
+.tab-content{
+  
+  width: 100%;
+}
+
+ </style>
 
 <body> 
        
@@ -132,7 +166,7 @@
         <div class="row">
           
           <div class="col-sm-5 main-text" >
-            <h2 style="color:whitesmoke" class="animated zoomIn "> Why do we use it?<br/>
+            <h2 style="color:whitesmoke" class="animated slideInLeft"> Why do we use it?<br/>
                 It is a long established fact that a reader will be
                  distracted by the readable content of a page when 
                  looking at its layout.The point of using Lorem Ipsum 
@@ -141,8 +175,8 @@
                    Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, ae).</h2>
             </div>
             <div class="col-sm-6  main-text" >
-                <h2 style="color:whitesmoke" class="animated  zoomIn "> 
-                <img src="style/images/seoo.png"  id="hb" class="animated swing"  alt="pic" width="30%">
+                <h2 style="color:whitesmoke" class=""> 
+                <img src="style/images/seoo.png"  id="hb" class="animated slideInRight"  alt="pic" width="30%">
                 
                 </h2>
               </div>
@@ -153,7 +187,7 @@
             <div class="row">
               
               <div class="col-sm-5 main-text" >
-                <h2 style="color:whitesmoke"  class="animated slideInLeft "> Why do we use it?<br/>
+                <h2 style="color:whitesmoke"  class=" animated slideInRight "> Why do we use it?<br/>
                     It is a long established fact that a reader will be
                      distracted by the readable content of a page when 
                      looking at its layout.The point of using Lorem Ipsum 
@@ -162,7 +196,7 @@
                        Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, ae).</h2>
                 </div>
                 <div class="col-sm-6  main-text" >
-                    <h2 style="color:whitesmoke"  class="animated flip  delay-1s"> 
+                    <h2 style="color:whitesmoke"  class=" animated slideInLeft"> 
                     <img src="style/images/uiux.png"  alt="pic"  id="hvr" width="50%">
                     
                     </h2>
@@ -174,7 +208,7 @@
                 <div class="row">
                   
                   <div class="col-sm-5 main-text" >
-                    <h2 style="color:whitesmoke" class="animated slideInLeft  delay-2s"> Why do we use it?<br/>
+                    <h2 style="color:whitesmoke" class="six v"> Why do we use it?<br/>
                         It is a long established fact that a reader will be
                          distracted by the readable content of a page when 
                          looking at its layout.The point of using Lorem Ipsum 
@@ -183,7 +217,7 @@
                            Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, ae).</h2>
                     </div>
                     <div class="col-sm-6  main-text" >
-                        <h2 style="color:whitesmoke" class="animated slideInRight delay-2s "> 
+                        <h2 style="color:whitesmoke" class="five  v"> 
                         <img src="style/images/webdevelopment.png" id="wb" alt="pic" width="30%">
                         
                         </h2>
@@ -195,7 +229,7 @@
                     <div class="row">
                       
                       <div class="col-sm-5 main-text" >
-                        <h2 style="color:whitesmoke" class="animated slideInLeft  delay-3s"> Why do we use it?<br/>
+                        <h2 style="color:whitesmoke" class="four v"> Why do we use it?<br/>
                             It is a long established fact that a reader will be
                              distracted by the readable content of a page when 
                              looking at its layout.The point of using Lorem Ipsum 
@@ -204,7 +238,7 @@
                                Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, ae).</h2>
                         </div>
                         <div class="col-sm-6  main-text" >
-                            <h2 style="color:whitesmoke" class="animated lightSpeedIn delay-3s"> 
+                            <h2 style="color:whitesmoke" class="three v"> 
                             <img src="style/images/webdesign.png"  id="main" alt="pic" width="30%">
                             
                             </h2>
@@ -215,8 +249,8 @@
                         <br/>
                         <div class="row">
                           
-                          <div class="col-sm-5 main-text" >
-                            <h2 style="color:whitesmoke" class="animated slideInLeft  delay-3s"> Why do we use it?<br/>
+                          <div class="col-sm-5 main-text"  >
+                            <h2 style="color:whitesmoke" class=" one "> Why do we use it?<br/>
                                <span id="mob"> It is a long established fact that a reader will be
                                  distracted by the readable content of a page when 
                                  looking at its layout.The point of using Lorem Ipsum 
@@ -225,7 +259,7 @@
                                    Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, ae)</span></h2>
                             </div>
                             <div class="col-sm-6  main-text" >
-                                <h2 style="color:whitesmoke" class="animated lightSpeedIn delay-3s"> 
+                                <h2 style="color:whitesmoke" class="two "> 
                                 <img src="style/images/mobile.png"  id="mob" alt="pic" width="30%">
                                 
                                 </h2>
@@ -234,10 +268,44 @@
                           </div>
          
         </div>
-    
+    <script>
+      $(document).ready(function(){
+         $('.one').waypoint(function(){
+   $('.one').addClass('animated slideInLeft '),
+    $('.one').removeClass('v') },
+{ offset:'50%'
+         });
+         $('.two').waypoint(function(){
+   $('.two').addClass('animated slideInRight '),
+   $('.two').removeClass('v')},
+{ offset:'50%'
+         });
+         $('.three').waypoint(function(){
+   $('.three').addClass('animated slideInRight '),
+   $('.three').removeClass('v ')},
+{ offset:'50%'
+         });
+         $('.four').waypoint(function(){
+   $('.four').addClass('animated slideInLeft '),
+   $('.four').removeClass('v ')},
+{ offset:'50%'
+         });
+         $('.five').waypoint(function(){
+   $('.five').addClass('animated slideInRight '),
+   $('.five').removeClass('v ')},
+{ offset:'50%'
+         });
+         $('.six').waypoint(function(){
+   $('.six').addClass('animated slideInLeft '),
+   $('.six').removeClass('v ')},
+{ offset:'50%'
+         });
+      });
+      </script>
     
     <script>
     $(function(){
+      //hover effects
           $(' #main').hover(function(){
             animate(' #main', 'flip')
            return false;
@@ -289,96 +357,176 @@
 
 
 <section class="works">
-	<div class="container">
-    	<h2 class="text-center  animated infinite heartBeat  "  style="font-size:50px">How It Works?</h2>
-        <div class="row hi-icon-wrap hi-icon-effect-8">
-        	<ul class="resp-tabs-list hor_1" id="color_tab">
-    <li data-target="tab1" class="hi-icon Mobile resp-tab-item hor_1 resp-tab-active" aria-controls="hor_1_tab_item-0" role="tab">
-    	<span>BRIEFING <i class="fa fa-chevron-circle-down animated slideInDown" aria-hidden="true"></i></span>
-    </li>
-    
-    <li data-target="tab2" class="hi-icon Mobile resp-tab-item hor_1 two" aria-controls="hor_1_tab_item-0" role="tab">
-    	<span>RESEARCH <i class="fa fa-chevron-circle-down animated slideInDown" aria-hidden="true"></i></span>
-    </li>
-   
-   
-   <li data-target="tab3" class="hi-icon Mobile resp-tab-item hor_1 three" aria-controls="hor_1_tab_item-0" role="tab">
-    	<span>DESIGN <i class="fa fa-chevron-circle-down animated slideInDown" aria-hidden="true"></i></span>
-    </li>
-   
-    <li data-target="tab4" class="hi-icon Mobile resp-tab-item hor_1 four" aria-controls="hor_1_tab_item-0" role="tab">
-    	<span>Development <i class="fa fa-chevron-circle-down animated slideInDown" aria-hidden="true"></i></span>
-    </li>
-   
-   
-   <li data-target="tab5" class="hi-icon Mobile resp-tab-item hor_1 five" aria-controls="hor_1_tab_item-0" role="tab">
-    	<span>Revision <i class="fa fa-chevron-circle-down animated slideInDown" aria-hidden="true"></i></span>
-    </li>
-    
-     <li data-target="tab6" class="hi-icon Mobile resp-tab-item hor_1 six" aria-controls="hor_1_tab_item-0" role="tab">
-    	<span>Delivery <i class="fa fa-chevron-circle-down animated slideInDown" aria-hidden="true"></i></span>
-    </li>
-    
-  </ul>
-        </div>
-        
-        
+<h1 class="text-center text-uppercase" style="font-size:80px;font-family: Arial, Helvetica, sans-serif"> how we works?</h1>
+<br/>
+    <div class="container">
         <div class="row">
-        	<div class="col-md-5">
-            	<div class="works_slide">
-                	<div id="owl-demo3" class="owl-carousel">
-                        <div class="item" data-target="tab1">
-                        <h5>Briefing</h5>
-                        <p>After gathering user’s specifications, the client is given a brief overview of the project where we understand their goals, objectives, scope and target audience for the proposed design.</p>
-                        </div>
-                        <div class="item" data-target="tab2">
-                        <h5>Research</h5>
-                        <p>Brainstorming on ideas prior to project submission is a ritual that we religiously follow. We study and analyze the needs and requirements of the client as well as the end user in order to devise the right kind of strategy. </p>
-                        </div>
-                        <div class="item" data-target="tab3">
-                        <h5>Design</h5>
-                        <p>The process involves developing designs that are adaptive to the changing needs and demands of the market. Logo, stationery, brochures, each design crafted by our team of skillful designers uniquely captures the essence of your business.</p>
-                        </div>
-                        <div class="item" data-target="tab4">
-                        <h5>Development</h5>
-                        <p>Our solutions are scalable, secure and sustainable. From the web to mobile applications, we adeptly program softwares that will give your industry the boost to stand out and grow to its potential.</p>
-                        </div>
-                        <div class="item" data-target="tab5">
-                        <h5>Revision</h5>
-                        <p>We invest time in creating quality work that undergoes several rounds of revision. This ensures that the design and solution provided is free from plagiarism and has full copyrights. </p>
-                        </div>
-                        <div class="item" data-target="tab6">
-                        <h5>Delivery</h5>
-                        <p>After going through an extensive process, we deliver work that is timely, professional and systematically aligned to your business objectives and values.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      
+  
+   <div class="container">
+            <br />
             
-            
-            <div class="col-md-7 col-xs-12">
-            	<div class="out_tab">
-                	<div id="tab1" class="inner_tab" style="display:block">
-                    	<img src="../assets/images/brief.jpg" class="img-responsive pull-right" width="874" height="469" alt="briefing" title="briefing">
-                    </div>
-                    <div id="tab2" class="inner_tab">
-                    	<img src="../assets/images/research.jpg" class="img-responsive" width="538" height="452" alt="research" title="research">
-                    </div>
-                    <div id="tab3" class="inner_tab">
-                    	<img src="../assets/images/design.jpg" class="img-responsive" width="731" height="403" alt="design" title="design">
-                    </div>
-                     <div id="tab4" class="inner_tab">
-                    	<img src="../assets/images/tbdevelopment.jpg" class="img-responsive" width="693" height="423" alt="development" title="development">
-                    </div>
-                    <div id="tab5" class="inner_tab">
-                    		<img src="../assets/images/revision.jpg" class="img-responsive" width="417" height="473" alt="revision" title="revision">
-                    </div>
-                    <div id="tab6" class="inner_tab">
-                    	<img src="../assets/images/delivery.jpg" class="img-responsive" width="563" height="437" alt="delivery" title="delivery">
-                    </div>
-                </div>
+            <ul class="nav nav-tabs nav-justified text-uppercase" style="font-size:30px">
+             <li class="nav-item  ">
+                   
+                <a href="#home" class="nav-link active " role="tab" data-toggle="tab">
+                  <i class="material-icons" style="font-size:68px;color:orange">android</i>
+                      </a>
+                   
+                  </li> 
+                  
+                  <li class="nav-item">
+                          <a href="#about" class="nav-link" role="tab" data-toggle="tab">
+                            <i class="material-icons" style="font-size:68px;color:green">account_circle</i> 
+                          </a>
+                      </li>
+  
+              <li class="nav-item">
+                      <a href="#profile" class="nav-link " role="tab" data-toggle="tab">
+                        <i class="material-icons" style="font-size:68px;color:red">3d_rotation</i>
+                      </a>
+              </li>
+  
+              
+  
+              <li class="nav-item">
+                <a href="#Disabled" role="tab" data-toggle="tab" class="nav-link ">
+  
+                              <i class="material-icons" style="font-size:68px;color:dodgerblue">account_balance</i>
+                      </a>
+                  </li>
+                  <li class="nav-item">
+                          <a href="#rate" role="tab" data-toggle="tab" class="nav-link ">
+  
+                                  <i class="material-icons" style="font-size:68px;color:maroon">add_a_photo</i>
+                          </a>
+                      </li>
+            </ul>
+  
+            <div class="tab-content">
+              <div role="tabpanel" class="tab-pane active  " id="home">
+                      <div class="container">
+                          <div class="row ">
+                              <div class="col-xl-6 main-text animated slideInLeft">
+                                     <p>Lorem ipsum dolor sit amet consectetur
+                                          adipisicing elit.
+                                          Corrupti perspiciatis, veritatis aut reprehenderit voluptas quo 
+                                          quaerat fugit deserunt dolores iusto, in tempora reiciendis ut, molestiae laborum officia itaque 
+                                         tempore consectetur amet nemo quis quos odio eius.
+                                          Quidem, minus veritatis eius amet dolor nostrum ex nihil.</p>
+  
+  
+                              </div>
+                              <div class="col-xl-5">
+                                  <div class="text-center animated slideInRight">
+                                  <img src="style/images/mobile.png"alt="" width="70%"  style="position:relative;top:50px"  >
+                                  </div>
+                              </div>
+  
+                          </div>
+                      </div>
+                                        
+                  
+                  </div>
+              <div role="tabpanel" class="tab-pane fade" id="profile">
+  
+                          <div class="container">
+                                  <div class="row ">
+                                      <div class="col-xl-6 main-text animated slideInLeft">
+                                             <p>Lorem ipsum dolor sit amet consectetur
+                                                  adipisicing elit.
+                                                  Corrupti perspiciatis, veritatis aut reprehenderit voluptas quo 
+                                                  quaerat fugit deserunt dolores iusto, in tempora reiciendis ut, molestiae laborum officia itaque 
+                                                 tempore consectetur amet nemo quis quos odio eius.
+                                                  Quidem, minus veritatis eius amet dolor nostrum ex nihil.</p>
+          
+          
+                                      </div>
+                                      <div class="col-xl-5">
+                                          <div class="text-center animated slideInRight">
+                                          <img src="style/images/content.png"alt="" class="animated slideInRight" width="70%" style="position:relative;top:50px"   >
+                                          </div>
+                                      </div>
+          
+                                  </div>
+                              </div>
+                  </div>
+                  <div role="tabpanel" class="tab-pane fade" id="about">
+                          <div class="container">
+                                  <div class="row ">
+                                      <div class="col-xl-6 main-text animated slideInLeft" ">
+                                             <p class="animated slideInLeft ">Lorem ipsum dolor sit amet consectetur
+                                                  adipisicing elit.
+                                                  Corrupti perspiciatis, veritatis aut reprehenderit voluptas quo 
+                                                  quaerat fugit deserunt dolores iusto, in tempora reiciendis ut, molestiae laborum officia itaque 
+                                                 tempore consectetur amet nemo quis quos odio eius.
+                                                  Quidem, minus veritatis eius amet dolor nostrum ex nihil.</p>
+          
+          
+                                      </div>
+                                      <div class="col-xl-5">
+                                          <div class="text-center animated slideInRight ">
+                                          <img src="style/images/graphic.png"alt="" width="70%" style="position:relative;top:50px"  >
+                                          </div>
+                                      </div>
+          
+                                  </div>
+                              </div>
+                  </div>
+                  <div role="tabpanel" class="tab-pane fade" id="Disabled">
+                          <div class="container">
+                                  <div class="row ">
+                                      <div class="col-xl-6 main-text animated slideInLeft"">
+                                             <p>Lorem ipsum dolor sit amet consectetur
+                                                  adipisicing elit.
+                                                  Corrupti perspiciatis, veritatis aut reprehenderit voluptas quo 
+                                                  quaerat fugit deserunt dolores iusto, in tempora reiciendis ut, molestiae laborum officia itaque 
+                                                 tempore consectetur amet nemo quis quos odio eius.
+                                                  Quidem, minus veritatis eius amet dolor nostrum ex nihil.</p>
+          
+          
+                                      </div>
+                                      <div class="col-xl-5">
+                                          <div class="text-center animated slideInRight" style="position:relative;top:50px">
+                                          <img src="style/images/uiux.png"alt="" width="70%"  style="position:relative;top:50px"  >
+                                          </div>
+                                      </div>
+          
+                                  </div>
+                              </div>
+                  </div>
+                  <div role=" tabpanel" class="tab-pane fade" id="rate">
+                          <div class="container">
+                                  <div class="row ">
+                                      <div class="col-xl-6 main-text animated slideInLeft"">
+                                             <p>Lorem ipsum dolor sit amet consectetur
+                                                  adipisicing elit.
+                                                  Corrupti perspiciatis, veritatis aut reprehenderit voluptas quo 
+                                                  quaerat fugit deserunt dolores iusto, in tempora reiciendis ut, molestiae laborum officia itaque 
+                                                 tempore consectetur amet nemo quis quos odio eius.
+                                                  Quidem, minus veritatis eius amet dolor nostrum ex nihil.</p>
+          
+          
+                                      </div>
+                                      <div class="col-xl-5">
+                                          <div class="text-center animated slideInRight" style="position:relative;top:50px">
+                                          <img src="style/images/seoo.png"alt="" width="70%"  >
+                                          </div>
+                                      </div>
+          
+                                  </div>
+                              </div>
+                  </div>
             </div>
+          </div>
+  
+         
+  
+      </div>
         </div>
+      </div>
+        
+      
         
     </div>
 </section>
@@ -401,7 +549,9 @@
 
 
 
-
+ <!-- jQuery first, then Bootstrap JS. -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+ <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
 
 
 <!--Required JS --> 
